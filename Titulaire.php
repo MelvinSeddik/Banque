@@ -142,25 +142,6 @@ class Titulaire{
         return $this->nom." ".$this->prenom." ".$this->age." ".$this->ville;
     }
 
-/*     public static function dateToAge($date){
-        $date1 = new DateTime($date);
-        $aujourdhui = new DateTime("now");
-        $difference = $date1->diff($aujourdhui);
-        $age = $difference->format("%Y ans");
-        return $age;
-    } */
-
-/*     public static function dateToAge($date){
-        $date1 = new DateTime(DateTime::createFromFormat('d-m-Y', $date);
-        $date1 = $date1->format("Y");
-
-        $date1 = $date1->diff($aujourdhui);
-        $age = $date1;
-        $aujourdhui = new DateTime("now");
-        return $age;
-    } */
-
-
     public function ajouterCompte($compte){
         array_push($this->comptesBancaires, $compte);
         echo "le compte <strong>".$compte."</strong> a bien été ajouté au titulaire <strong>".$this."</strong><br>";
