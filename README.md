@@ -1,3 +1,3 @@
 # Banque
  
-Exercice PHP - ELAN FORMATION
+Premier exercice POO PHP - ELAN FORMATION
